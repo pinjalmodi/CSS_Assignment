@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .blog-post {
+            width: 90%;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif; /* Font for title */
+            font-size: 25px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        
+        .content p {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .content a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .content p {
+                font-size: 12px;
+                margin-bottom: 15px;
+            }
+
+            .blog-post {
+                width: 100%;
+                padding: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blog-post">
+        <h1>Exploring the Beauty of Nature</h1>
+        <h2>Why we should appreciate the outdoors more</h2>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ligula mauris. Suspendisse potenti. Vivamus sed est eu nisi auctor venenatis. <a href="#">Read more</a></p>
+
+            <p>Nulla malesuada lacus ut ex facilisis, a vulputate lorem congue. Sed at enim a metus feugiat ullamcorper a ac urna. Fusce interdum purus ut risus mollis, sit amet faucibus enim feugiat. Nam vel leo massa.</p>
+
+            <p>In hac habitasse platea dictumst. Vestibulum condimentum lorem eu ante tempus, sit amet gravida sem fermentum. <a href="#">Learn more</a></p>
+        </div>
+    </div>
+</body>
+</html>

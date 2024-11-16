@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:content-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .profile-card{
+            text-align: center;
+           
+        }
+        .profile-pic{
+            background-image: url(/CSS/Frontend_practise/img/dp1.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 300px;
+            width: 300px;
+            border: 3px solid black;
+         
+        }
+        .profile-info{
+            padding: 20px;
+        }
+
+        .follow {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="profile-card">
+    <div class="profile-pic">
+    </div>
+    <div class="profile-info">
+        <h2>
+            Name: Pinjal Modi
+        </h2>
+        <p>Full stack Python Web Developer</p>
+        <button class="follow">Follow</button>
+    </div>
+</div>
+</body>
+</html>
